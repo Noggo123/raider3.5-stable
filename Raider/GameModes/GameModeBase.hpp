@@ -117,7 +117,7 @@ public:
         PlayerState->OnRep_bHasStartedPlaying();
 
         static auto FortRegisteredPlayerInfo = ((UFortGameInstance*)GetWorld()->OwningGameInstance)->RegisteredPlayers[0]; // UObject::FindObject<UFortRegisteredPlayerInfo>("FortRegisteredPlayerInfo Transient.FortEngine_0_1.FortGameInstance_0_1.FortRegisteredPlayerInfo_0_1");
-
+//
         if (FortRegisteredPlayerInfo)
         {
             auto Hero = FortRegisteredPlayerInfo->AthenaMenuHeroDef;

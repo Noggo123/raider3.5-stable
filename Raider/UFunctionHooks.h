@@ -647,6 +647,8 @@ namespace UFunctionHooks
         })
 
         DEFINE_PEHOOK("Function FortniteGame.FortPlayerPawn.ServerChoosePart", {
+            return true;
+        })
            
 
         DEFINE_PEHOOK("Function Engine.GameMode.ReadyToStartMatch", {
