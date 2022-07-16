@@ -23,7 +23,7 @@ public:
         this->Teams->AddPlayerToRandomTeam(Controller);
     }
 
-    void InitializeGameplay()
+    void InitializeGameplay() // Just some testing with the timer
     {
         auto GameState = static_cast<AFortGameStateAthena*>(GetWorld()->GameState);
         auto GameMode = static_cast<AFortGameModeAthena*>(GetWorld()->AuthorityGameMode);
