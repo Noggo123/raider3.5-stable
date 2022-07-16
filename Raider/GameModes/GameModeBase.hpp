@@ -182,7 +182,7 @@ public:
     virtual PlayerLoadout& GetPlaylistLoadout()
     {
         static PlayerLoadout Ret = {
-            FindWID("WID_Harvest_Pickaxe_Smiley_Athena_C_T01"),
+            FindWID("WID_Harvest_Pickaxe_Athena_C_T01"),
             FindWID("WID_Assault_Auto_Athena_UC_Ore_T03"), // Green ar
             FindWID("WID_Shotgun_Standard_Athena_C_Ore_T03"), // green pump
             FindWID("WID_Shotgun_Standard_Athena_C_Ore_T03"), // green pump
