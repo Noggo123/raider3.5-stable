@@ -186,7 +186,7 @@ public:
             FindWID("WID_Assault_Auto_Athena_UC_Ore_T03"), // Green ar
             FindWID("WID_Shotgun_Standard_Athena_C_Ore_T03"), // green pump
             FindWID("WID_Shotgun_Standard_Athena_C_Ore_T03"), // green pump
-            FindWID("WID_Sniper_NoScope_Athena_UC_Ore_T03"), // Green hunting
+            FindWID("WID_Sniper_NoScope_Athena_UC_Ore_T03"), // Green hunting rifle
             FindWID("Athena_Shields") // Big Shield Potion
         };
 
