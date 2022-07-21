@@ -15,7 +15,6 @@ public:
     {
         LOG_INFO("Initializing GameMode Playground!");
 
-        auto GameMode = static_cast<AFortGameModeAthena*>(GetWorld()->AuthorityGameMode);
     }
 
     void OnPlayerJoined(AFortPlayerControllerAthena* Controller) override
